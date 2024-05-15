@@ -4,13 +4,14 @@ body {
     margin-right: 300px;
 }
 
-.Primary-button{
+.Primary-button {
     color: white;
     background-color: #FF0000;
     border-radius: 10px;
     padding: 15px 30px;
     font-size: 25px;
     border: 0px;
+    text-align: center;
 }
 
 /* Header style */
@@ -95,27 +96,33 @@ header {
     /* background: -webkit-gradient(linear, left top, left bottom, from(#ff000010), to(rgba(255, 255, 255, 0)));  */
 
 }
-.part-3 .welcome{
+
+.part-3 .welcome {
     font-size: 64px;
     margin-bottom: 0px;
 }
-.part-3 .welcome-discription{
+
+.part-3 .welcome-discription {
     font-size: 18px;
     max-width: 697px;
     margin-top: 0px;
     padding-top: 20px;
 }
-.welcome, .welcome-discription{
+
+.welcome,
+.welcome-discription {
     padding-top: 120px;
     padding-left: 100px;
 }
-.part-3 .join{
+
+.part-3 .join {
     font-size: 20px;
     margin-left: 150px;
     margin-top: 100px;
 }
-.over-png{
-    position:absolute;
+
+.over-png {
+    position: absolute;
     top: 70px;
     right: 133px;
     width: 319.83px;
@@ -126,8 +133,8 @@ header {
 
 /* background: -webkit-gradient(linear, left top, left bottom, from(blue), to(white)); */
 
-.place-date-time{
-    background: -webkit-gradient(linear, left top, left bottom, from(#ff000010), to(white)); 
+.place-date-time {
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff000010), to(white));
     width: 1320px;
     height: 482px;
     border-radius: 15px;
@@ -136,74 +143,272 @@ header {
     margin: auto;
     margin-top: 50px;
 }
-.place-date-time .color-change{
-    color:#FF0000 ;
+
+.place-date-time .color-change {
+    color: #FF0000;
     display: inline;
 }
+
 .place-date-time h4 {
     font-size: 32px;
 }
 
 /* New Best offer style */
-.best-offer{
+.best-offer {
     width: 1320px;
     height: 463px;
     margin: auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     position: relative;
 }
 
 /* left offer style */
-.left-offer{
+.left-offer {
     max-width: 393px;
 
 }
-.left-offer h4{
+
+.left-offer h4 {
     font-size: 24px;
     margin: 2px;
     color: #FF0000;
 }
-.left-offer h2{
+
+.left-offer h2 {
     font-size: 48px;
     color: #070211d3;
     margin: 2px;
 
 }
-.left-offer > p{
+
+.left-offer>p {
     font-size: 20px;
     color: #070211d3;
-    letter-spacing:2px;
+    letter-spacing: 2px;
 }
+
 /* middle offer style */
 
-.middle-offer{
-        width: 364.84px;
+.middle-offer {
+    width: 364.84px;
 }
-.middle-offer img{
+
+.middle-offer img {
     width: 305px;
     padding: 20px;
-    border: 10px solid #FF0000 ;
+    border: 10px solid #FF0000;
     border-radius: 50%;
 }
+
 /* right offer style */
 
-.right-offer{
+.right-offer {
     width: 276px;
     height: 170px;
     margin: 0px;
 }
-.right-offer h2{
+
+.right-offer h2 {
     font-size: 48px;
     color: #FF0000;
     margin: 2px;
 }
-.right-offer > p{
+
+.right-offer>p {
     font-size: 20px;
     color: #070211d3;
-    letter-spacing:2px;
+    letter-spacing: 2px;
 }
-.right-offer img{
+
+.right-offer img {
     width: 140px;
+}
+
+/* holidays style */
+.holidays {
+    text-align: center;
+    width: 1320px;
+    height: 986.07px;
+    position: relative;
+    align-items: center;
+    margin: auto;
+}
+
+.holiday-text {
+    width: 1068px;
+    margin: auto;
+}
+
+.holidays-subtitle {
+    color: #070211;
+    font-size: 24px;
+}
+
+.holidays-title {
+    color: #070211;
+    font-size: 72px;
+    margin: 0px auto;
+}
+
+.holidays-title nav {
+    color: #FF0000;
+    display: inline;
+}
+
+.holidays-discription {
+    color: #07021160;
+    font-size: 20px;
+    margin: 0px auto;
+}
+
+.holidays img {
+    position: absolute;
+}
+
+.red-base {
+    bottom: 0px;
+    left: 0px;
+    height: 229px;
+
+}
+
+.girl {
+    bottom: 229px;
+    right: 0px;
+    height: 433px;
+}
+
+.discount {
+    height: 220.05;
+    bottom: 216.5px;
+    right: 291.5px;
+}
+
+.gift-box {
+    width: 674.82px;
+    left: 50px;
+    bottom: 22px;
+}
+
+/* protfolio style */
+.protfolio {
+    width: 1320px;
+    height: 1163px;
+    margin: 100px auto;
+}
+
+.protfolio-subtitle {
+    font-size: 24px;
+    color: #FF0000;
+    margin: 0px;
+}
+
+.protfolio-title {
+    font-size: 48px;
+    color: #070211;
+    margin: 20px 0px;
+}
+
+.protfolio p {
+    letter-spacing: 2px;
+    font-size: 32px;
+    width: 896px;
+    font-size: 20px;
+    color: #07021160;
+}
+
+.protfolio img {
+    width: 424px;
+    height: 450px;
+    display: inline-flex;
+    border: 0px;
+    border-radius: 16px;
+    margin: 8px;
+    justify-content: space-between;
+}
+
+
+/* subscrib section style */
+.subscribe {
+    width: 1320px;
+    height: 616px;
+    margin: auto;
+    background-color: #FF000007;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 100px;
+    border-radius: 18px;
+}
+
+.subscribe image {
+    size: 150px;
+}
+
+.subscribe h1 {
+    font-size: 48px;
+}
+
+.subscribe p {
+    width: 896px;
+    letter-spacing: 2px;
+    height: 64px;
+    text-align: center;
+    margin: auto;
+
+}
+.mail-button{
+    background-color: #FF0000;
+    width: 648px;
+    display: inline-flex;
+    border-radius: 50px;
+    border: 0px;
+}
+.subscribe input{
+    height: 72px;
+}
+.email-fild {
+    width: 438px;
+    border: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: white;
+    font-size: 18px;    padding-left:30px;
+}
+.subscribe-button{
+    background-color: #FF0000;
+    color: white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 210px;
+    border: 0px;
+    font-size: 20px;
+}
+
+/* footer style */
+footer{
+    background-color: #070211;
+    width: 1600px;
+    height: 609px;
+    padding: 150px;
+    color: white;
+    margin: 0px;
+}
+.hole-footer{
+    margin: auto;
+}
+.footer-top , .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-middle{
+    text-align: center;
+}
+.footer-middle img {
+    size: 64px;
+    margin: 20px;
+}
+.footer-bottom{
+    margin-top: 50px;
 }
