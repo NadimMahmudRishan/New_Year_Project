@@ -1,5 +1,5 @@
 /* shared style */
-body {
+main , header {
     margin-left: 300px;
     margin-right: 300px;
 }
@@ -337,7 +337,8 @@ header {
     margin: auto;
     background-color: #FF000007;
     text-align: center;
-    padding: 100px;
+    /* padding: 100px; */
+    padding: 100px 0px;
     margin-bottom: 100px;
     border-radius: 18px;
 }
@@ -389,7 +390,7 @@ header {
 /* footer style */
 footer{
     background-color: #070211;
-    width: 1600px;
+    width: 100%;
     height: 609px;
     padding: 150px;
     color: white;
